@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "general_silicon:block/small_silica_bud"
+  },
+  "render_type": "cutout"
+}

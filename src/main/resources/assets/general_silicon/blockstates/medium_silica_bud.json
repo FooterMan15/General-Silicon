@@ -1,0 +1,30 @@
+{
+  "variants": {
+    "facing=down": {
+      "model": "general_silicon:block/medium_silica_bud",
+      "x": 180
+    },
+    "facing=east": {
+      "model": "general_silicon:block/medium_silica_bud",
+      "x": 90,
+      "y": 90
+    },
+    "facing=north": {
+      "model": "general_silicon:block/medium_silica_bud",
+      "x": 90
+    },
+    "facing=south": {
+      "model": "general_silicon:block/medium_silica_bud",
+      "x": 90,
+      "y": 180
+    },
+    "facing=up": {
+      "model": "general_silicon:block/medium_silica_bud"
+    },
+    "facing=west": {
+      "model": "general_silicon:block/medium_silica_bud",
+      "x": 90,
+      "y": 270
+    }
+  }
+}

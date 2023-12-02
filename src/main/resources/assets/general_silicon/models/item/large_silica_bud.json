@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/large_amethyst_bud",
+  "textures": {
+    "layer0": "general_silicon:block/large_silica_bud"
+  }
+}

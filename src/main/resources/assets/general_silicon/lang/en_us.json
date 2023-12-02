@@ -1,0 +1,14 @@
+{
+  "itemGroup.silicon_tab": "General Silicon",
+
+  "block.general_silicon.silica_block": "Silica Block",
+  "block.general_silicon.budding_silica": "Budding Silica",
+  "block.general_silicon.silica_cluster": "Silica Cluster",
+  "block.general_silicon.small_silica_bud": "Small Silica Bud",
+  "block.general_silicon.large_silica_bud": "Large Silica Bud",
+  "block.general_silicon.medium_silica_bud": "Medium Silica Bud",
+
+  "item.general_silicon.silicon": "Silicon",
+
+  "container.general_silicon.refinery": "Refinery"
+}
