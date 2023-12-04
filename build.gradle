@@ -10,9 +10,6 @@ version = project.mod_version
 group = project.maven_group
 
 loom {
-    // use this if you are using the official mojang mappings
-    // and want loom to stop warning you about their license
-    silentMojangMappingsLicense()
 
     // since loom 0.10, you are **required** to use the
     // "forge" block to configure forge-specific features,
@@ -43,9 +40,12 @@ repositories {
         }
     }
     maven {
-        // location of the maven that hosts JEI files since January 2023
         name = "Jared's maven"
         url = "https://maven.blamejared.com/"
+    }
+    maven {
+        name = "Progwml6 maven"
+        url = "https://dvs1.progwml6.com/files/maven/"
     }
     repositories {
         maven {
@@ -71,10 +71,9 @@ dependencies {
     forge "net.minecraftforge:forge:${project.forge_version}"
     mappings loom.layered() {
         officialMojangMappings()
-        parchment("org.parchmentmc.data:parchment-${minecraft_version}:${parch_ver}@zip")
+        parchment("org.parchmentmc.data:parchment-1.19.2:2022.11.27@zip")
     }
-
-    modRuntimeOnly("mezz.jei:jei-${minecraft_version}-forge:${jei_ver}")
+    modImplementation("mezz.jei:jei-${minecraft_version}-forge:${jei_ver}")
 }
 
 processResources {
